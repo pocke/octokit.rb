@@ -9,9 +9,9 @@ rvm:
   - 2.3.3
   - 2.4.0
 
-bundler_args: --without development
+bundler_args: --with development
 
-sudo: false
+sudo: true
 
 env:
   global:
@@ -31,4 +31,4 @@ matrix:
     - rvm: jruby
 
 notifications:
-  email: false
+  email: true
